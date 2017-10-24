@@ -1,0 +1,16 @@
+{
+  "name": "recurly-node-api",
+  "version": "1.0.0",
+  "description": "Nodejs Recurly Library",
+  "main": "index.js",
+  "author": "Michael Zinn",
+  "license": "MIT",
+  "dependencies": {
+    "js2xmlparser": "^3.0.0",
+    "lodash": "^4.17.4",
+    "merge-descriptors": "^1.0.1",
+    "methods": "^1.1.2",
+    "xml2js": "^0.4.19",
+    "xml2js-parser": "^1.1.1"
+  }
+}
