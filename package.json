@@ -6,6 +6,7 @@
   "author": "Michael Zinn",
   "license": "MIT",
   "dependencies": {
+    "data2xml": "^1.2.5",
     "js-type-checker": "^1.0.0",
     "js2xml": "^1.0.8",
     "js2xmlparser": "^3.0.0",

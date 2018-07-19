@@ -2,6 +2,8 @@ const parser = require('xml2js-parser');
 
 const typeChecker = require('js-type-checker');
 
+const convert = require('data2xml')();
+
 const parserObj = new parser({
   explicitArray: false,
   ignoreAttrs : false,
@@ -21,6 +23,6 @@ module.exports = {
     return parserObj.parseStringSync(message)
   },
   toXML(bodyRoot, message){
-    return new Js2Xml(bodyRoot, message).toString();
+    return convert(bodyRoot, message).toString();
   }
 };
