@@ -4,7 +4,7 @@
   "description": "Nodejs Recurly Library",
   "main": "index.js",
   "author": "Michael Zinn",
-  "license": "MIT",
+  "license": "0BSD",
   "dependencies": {
     "data2xml": "^1.2.5",
     "js-type-checker": "^1.0.0",
